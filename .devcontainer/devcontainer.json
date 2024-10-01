@@ -8,5 +8,6 @@
   },
   "remoteUser": "root",
   "containerUser": "root",
-  "onCreateCommand": "${containerWorkspaceFolder}/.devcontainer/commands/setup-ssh.sh"
+  "onCreateCommand": "${containerWorkspaceFolder}/devcontainer-ubuntu-docker/.devcontainer/commands/setup-ssh.sh",
+  "workspaceFolder": "/workspaces"
 }
