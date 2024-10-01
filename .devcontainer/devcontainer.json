@@ -5,5 +5,8 @@
     "docker-in-docker": {
       "version": "latest"
     }
-  }
+  },
+  "remoteUser": "root",
+  "containerUser": "root",
+  "onCreateCommand": "${containerWorkspaceFolder}/.devcontainer/commands/setup-ssh.sh"
 }
